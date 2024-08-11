@@ -26,11 +26,11 @@ Trapode is an SSH honeypot designed to trap and monitor malicious activity on yo
 
 ## Installation and Usage
 
-### Prerequisites
+### Prerequisites:
 - Node.js (>= 14.x)
 - node-pty package
 
-### From Source
+### From Source:
 
 **Clone the repository:**
 
@@ -57,7 +57,7 @@ const honeypot = new Server({
 });
 ```
 
-### Usages
+### Usages:
 
 ```
 $ node index.js [TIMEZONE]
@@ -73,7 +73,7 @@ $ node index.js [TIMEZONE]
 
 ----
 
-### Logging
+### Logging:
 
 - Logs are saved to ssh_honeypot.log in the project directory.
 - Logs include timestamps based on the provided or default time zone.
@@ -81,7 +81,7 @@ $ node index.js [TIMEZONE]
 ----
 
 
-## License
+## License 
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
