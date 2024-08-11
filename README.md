@@ -5,13 +5,15 @@ Trapode is an SSH honeypot designed to trap and monitor malicious activity on yo
 ---
 
 ## Features:
----
 
 - Authentication Handling: Simulates authentication attempts and logs success or failure.
 - Command Simulation: Responds to basic commands like ls and whoami.
 - Session Logging: Logs all interactions within the SSH session.
 - Timezone Configuration: Allows dynamic time zone configuration for log timestamps.
 
+---
+
+## Installation and Usage:
 
 - [Installation and usage](#installation-and-usage)
   - [Prerequisties](#prerequisites)
@@ -67,22 +69,27 @@ $ node index.js [TIMEZONE]
 ---
 
 ### Commands:
----
 
 - Start Server: Runs the SSH honeypot on localhost at port 22.
 - Stop Server: Use Ctrl+C in the terminal where the server is running.
 
----
+----
 
 ### Logging
----
 
 - Logs are saved to ssh_honeypot.log in the project directory.
 - Logs include timestamps based on the provided or default time zone.
 
 ----
 
-## Notice:
----
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, create a pull request, and open issues for any bugs or feature requests.
+
+## Notice
 
 The project is currently under development, with advanced features and enhancements planned for future releases. Stay tuned for updates and new capabilities.
