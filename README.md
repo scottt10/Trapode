@@ -44,9 +44,7 @@ $ cd trapode
 $ npm install
 ```
 
-**Generate SSH Key:**
-<br>
-Ensure you have an SSH key pair for the server. You can generate one with: 
+**Generate SSH Key:** Ensure you have an SSH key pair for the server. You can generate one with: 
 
 ```
 ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa
@@ -84,6 +82,7 @@ $ node index.js [TIMEZONE]
 
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contributing
