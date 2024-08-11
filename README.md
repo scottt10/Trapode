@@ -50,7 +50,7 @@ $ npm install
 ssh-keygen -t rsa -b 2048 -f ~/.ssh/id_rsa
 ```
 
-
+**Configure SSH Key Path:** Update the path to your SSH key in the index.js file if needed
 ```javascript
 const honeypot = new Server({
   hostKeys: [fs.readFileSync('/home/yourusername/.ssh/id_rsa')]
